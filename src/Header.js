@@ -7,7 +7,7 @@ const Header =()=>{
   return(
     <div>
         <div className="h-div">
-        <FontAwesomeIcon icon={faBars} className="h-div--bars"></FontAwesomeIcon><p>sneakers</p>
+        <FontAwesomeIcon icon={faBars} className="h-div--bars"></FontAwesomeIcon><h3>sneakers</h3>
         <FontAwesomeIcon icon={faCartShopping} className="h-div--cart"></FontAwesomeIcon>
         </div>
     </div>

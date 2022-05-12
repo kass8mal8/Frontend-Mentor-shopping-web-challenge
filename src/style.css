@@ -10,8 +10,8 @@ body{
   margin:5px -10px;
 
 }
-.h-div p{
-  font-size: 20px;
+.h-div h3{
+  font-size: 25px;
   font-weight: 900;
   margin-top: -5px;
   margin-left: 10px;
@@ -20,7 +20,9 @@ body{
   opacity:65%;
   position: absolute;
   right: 16%;
+  
 }
 .h-div--bars{
   opacity: 65%;
+  width:25px;
 }
