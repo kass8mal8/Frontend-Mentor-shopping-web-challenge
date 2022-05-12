@@ -51,6 +51,9 @@ body{
     margin-bottom: 20px;
     font-size: 25px;
   }
-
-  top
+  .top-nav{
+    position: absolute;
+    background-color: orange;
+    left:10px ;
+  }
 }
