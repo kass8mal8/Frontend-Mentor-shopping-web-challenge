@@ -1,12 +1,15 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBars,faCartShopping } from '@fortawesome/free-solid-svg-icons' 
+import "./style.css"
 
 const Header =()=>{
   return(
     <div>
-        <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
+        <div className="h-div">
+        <FontAwesomeIcon icon={faBars} className="h-div--bars"></FontAwesomeIcon><p>sneakers</p>
+        <FontAwesomeIcon icon={faCartShopping} className="h-div--car"></FontAwesomeIcon>
+        </div>
     </div>
   )
 }
