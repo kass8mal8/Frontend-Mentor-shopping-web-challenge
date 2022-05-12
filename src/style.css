@@ -41,3 +41,10 @@ body{
     position: relative;
 
 }
+@media query and (max-width:425px){
+  .top-nav li{
+    display:block;
+    position: absolute;
+    left: 10px;
+  }
+}
