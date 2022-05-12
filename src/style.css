@@ -49,12 +49,15 @@ body{
   .top-nav--wrapper li{
     display: block;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 22px;
   }
   .top-nav{
     position: absolute;
     background-color: white;
-    left:0px ;
-    padding-top: 10px;
+    left:-18px ;
+    top:0px;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0 0 3px gray;
   }
 }
