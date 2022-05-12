@@ -33,18 +33,22 @@ body{
   height: 30px;
   width: 30px;
 }
-.top-nav li{
-    margin-right: 5px;
+.top-nav{
+  align-items: center;
+  margin-top: -18px;
+  margin-left: 20px;
+}
+.top-nav--wrapper li{
+    margin-right: 20px;
     list-style: none;
-    display: inline-flex;
-    margin-top: -50px;
-    position: relative;
-
+    display:inline-flex;
+    align-items: center;
 }
 @media query and (max-width:425px){
   .top-nav li{
-    display:block;
+    flex-flow: column;
     position: absolute;
     left: 10px;
+    margin-left: -20px;
   }
 }
