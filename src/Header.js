@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faBars,faCartShopping } from '@fortawesome/free-solid-svg-icons' 
+  import { faBars,faCartShopping, faClose } from '@fortawesome/free-solid-svg-icons' 
 import "./style.css"
 
 const Header =()=>{
@@ -11,6 +11,7 @@ const Header =()=>{
         <div className="h-div">
         <FontAwesomeIcon icon={faBars} className="h-div--bars"></FontAwesomeIcon><h3>sneakers</h3>
         <div className="top-nav">
+          <FontAwesomeIcon icon={faClose}></FontAwesomeIcon>
         <ul className="top-nav--wrapper">
           <li>collections</li>
           <li>men</li>
