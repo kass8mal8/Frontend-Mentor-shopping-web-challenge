@@ -8,7 +8,7 @@ const Header =()=>{
     <div>
         <div className="h-div">
         <FontAwesomeIcon icon={faBars} className="h-div--bars"></FontAwesomeIcon><p>sneakers</p>
-        <FontAwesomeIcon icon={faCartShopping} className="h-div--car"></FontAwesomeIcon>
+        <FontAwesomeIcon icon={faCartShopping} className="h-div--cart"></FontAwesomeIcon>
         </div>
     </div>
   )
