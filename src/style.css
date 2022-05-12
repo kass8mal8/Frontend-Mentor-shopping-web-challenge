@@ -45,6 +45,9 @@ body{
     display:inline-flex;
     align-items: center;
 }
+.top-nav--close{
+  display: none;
+}
 @media screen and (max-width:500px){
   .top-nav--wrapper li{
     display: block;
@@ -58,6 +61,10 @@ body{
     top:0px;
     padding: 20px;
     height: 100%;
-    box-shadow: 0 0 3px gray;
+    box-shadow: 0 2px 5px gray;
+  }
+  .top-nav--close{
+    display: block;
+    margin-top: 10px;
   }
 }

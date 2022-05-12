@@ -11,7 +11,7 @@ const Header =()=>{
         <div className="h-div">
         <FontAwesomeIcon icon={faBars} className="h-div--bars"></FontAwesomeIcon><h3>sneakers</h3>
         <div className="top-nav">
-          <FontAwesomeIcon icon={faClose}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faClose} className="top-nav--close"></FontAwesomeIcon>
         <ul className="top-nav--wrapper">
           <li>collections</li>
           <li>men</li>
