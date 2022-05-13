@@ -11,7 +11,10 @@ const Header =()=>{
   }
   const handleCart=()=>{
        return(
-        <div className="h-div--cart">
+        <div className="h-cart">
+            <div className="h-cart--">
+           
+            </div>
         </div>
        ) 
   }
