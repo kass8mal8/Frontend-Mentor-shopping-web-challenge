@@ -50,6 +50,7 @@ body{
 .top-nav--close{
   display: none;
 }
+/*main content styles*/
 .m-div{
   width:100%;
 }
@@ -59,6 +60,10 @@ body{
 }
 .m-div--image img{
   width: 100%;
+}
+.m-div--cont h2{
+   color: l
+   - Orange hsl(26, 100%, 55%);
 }
 @media screen and (max-width:500px){
   .top-nav--wrapper li{

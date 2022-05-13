@@ -8,7 +8,7 @@ const Main=()=>{
          <img src={image} />
       </div>
       <div className="m-div--cont">
-          <h2>sneakers company</hh2>
+          <h2>sneakers company</h2>
       </div>
     </div>
   )
