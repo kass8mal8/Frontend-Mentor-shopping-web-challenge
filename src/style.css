@@ -52,7 +52,7 @@ body{
 @media screen and (max-width:500px){
   .top-nav--wrapper li{
     display: block;
-    margin-bottom: 20px;
+    margin-top: 30px;
     font-size: 22px;
   }
   .top-nav{
@@ -62,10 +62,10 @@ body{
     top:0px;
     padding: 20px;
     height: 100%;
-    box-shadow: 0 2px 5px gray;
+    box-shadow: 0 10px 15px gray;
   }
   .top-nav--close{
     display: block;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 }
