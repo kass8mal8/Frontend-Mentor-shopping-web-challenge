@@ -1,3 +1,4 @@
+/*Header styles*/
 body{
   font-family: 'Kumbh sans';
   font-size: 16px;
@@ -66,7 +67,7 @@ body{
   }
   .top-nav.active{
     left:-18px;
-    transition-duration: 0.4s;
+    transition: 0.4s ease-in;
   }
   .top-nav--close{
     display: block;
