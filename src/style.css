@@ -87,7 +87,7 @@ body{
 .m-div--list li:nth-of-type(3){
     margin-left: 55%;
     color: gray;
-    text-decoration: lineth;
+    text-decoration: line-through;
 }
 @media screen and (max-width:500px)
 {
@@ -115,5 +115,10 @@ body{
     margin-top: 32px;
     opacity: 65%;
     margin-left:38px ;
+  }
+}
+@media screen and (max-width:375px){
+  .m-div--list li:nth-of-type(3){
+    margin-left:0%;
   }
 }
