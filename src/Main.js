@@ -9,6 +9,12 @@ const Main=()=>{
       </div>
       <div className="m-div--cont">
           <h2>sneakers company</h2>
+          <h3>
+            Fall Limited Edition Sneakers
+          </h3>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion featuring a durable rubber outer sole, they'll withstand everything the weather can offer. 
+          </p>
       </div>
     </div>
   )
