@@ -9,6 +9,12 @@ const Header =()=>{
   const handleToggle=()=>{
     document.getElementById("toggle").classList.toggle("active")
   }
+  const handleCart=()=>{
+       return(
+        <div className="h-div--cart">
+        console.log("hello") 
+       </div>)
+  }
   return(
     <div>
         <div className="h-div">
@@ -24,7 +30,7 @@ const Header =()=>{
 
         </ul>
         </div>
-        <FontAwesomeIcon icon={faCartShopping} className="h-div--cart"></FontAwesomeIcon>
+        <FontAwesomeIcon icon={faCartShopping} className="h-div--cart" onClick={handleCart}></FontAwesomeIcon>
         <img src={avatar} width="50px" alt="avatar"/>
         </div>
     </div>
