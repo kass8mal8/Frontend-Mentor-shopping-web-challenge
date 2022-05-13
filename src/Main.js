@@ -7,6 +7,9 @@ const Main=()=>{
       <div className="m-div--image">
          <img src={image} />
       </div>
+      <div className="m-div--cont">
+          <h2>sneakers company</hh2>
+      </div>
     </div>
   )
 }
