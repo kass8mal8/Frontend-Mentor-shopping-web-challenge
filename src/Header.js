@@ -12,8 +12,8 @@ const Header =()=>{
   const handleCart=()=>{
        return(
         <div className="h-div--cart">
-        console.log("hello") 
-       </div>)
+        </div>
+       ) 
   }
   return(
     <div>
