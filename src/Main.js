@@ -15,11 +15,13 @@ const Main=()=>{
           <p>
             These low-profile sneakers are your perfect casual wear companion featuring a durable rubber outer sole, they'll withstand everything the weather can offer. 
           </p>
-          <ul className="m-div--list">
+          <div className="m-div--list">
+          <ul>
              <li>$125.00</li>
              <li>50%</li>
              <li>$250.00</li>
           </ul>
+          </div>
       </div>
     </div>
   )

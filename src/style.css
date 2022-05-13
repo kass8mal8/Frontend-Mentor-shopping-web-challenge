@@ -67,14 +67,30 @@ body{
 .m-div--cont h2{
    color: hsl(25, 100%, 60%);
 }
+.m-div--list{
+    width: 100%;
+}
+.m-div--list ul{
+  margin-left: -40px;
+}
 .m-div--list li{
   list-style: none;
   display: inline-flex;
 }
 .m-div--list li:nth-of-type(2){
-  color: red;
+  background:lightgray;
+  padding: 5px;
+  border-radius: 2px;
+  color: gray;
+  margin-left: 5%;
 }
-@media screen and (max-width:500px){
+.m-div--list li:nth-of-type(3){
+    margin-left: 55%;
+    color: gray;
+    text-decoration: lineth;
+}
+@media screen and (max-width:500px)
+{
   .top-nav--wrapper li{
     display: block;
     margin-top: 30px;
