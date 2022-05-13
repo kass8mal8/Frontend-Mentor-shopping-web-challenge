@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { fafaCartShopping } from '@fortawesome/free-solid-svg-icons' 
+
 
 const Main=()=>{
   const image="https://lvcas-ca.github.io/E-commerce-product-page/images/image-product-1.jpg"
@@ -22,6 +25,7 @@ const Main=()=>{
              <li>$250.00</li>
           </ul>
           </div>
+          <button><FontAwesomeIcon icon={faCartShopping} ></FontAwesomeIcon>add to cart</button>
       </div>
     </div>
   )
