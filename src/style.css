@@ -50,6 +50,12 @@ body{
 .top-nav--close{
   display: none;
 }
+.m-div{
+  width:100%;
+}
+.m-div--image img{
+  width: 100%;
+}
 @media screen and (max-width:500px){
   .top-nav--wrapper li{
     display: block;
