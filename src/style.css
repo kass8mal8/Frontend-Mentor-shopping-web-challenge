@@ -58,11 +58,15 @@ body{
   .top-nav{
     position: absolute;
     background-color: white;
-    left:-18px ;
+    left:-300px ;
     top:0px;
     padding: 20px;
     height: 100%;
     box-shadow: 0 10px 15px gray;
+  }
+  .top-nav.active{
+    left:-18px;
+    transition-duration: 0.4s;
   }
   .top-nav--close{
     display: block;
